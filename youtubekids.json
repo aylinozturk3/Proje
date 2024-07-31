@@ -1,0 +1,20 @@
+{
+    "login": {
+        "email": {"path": "//input[@id='identifierId']", "type": "xpath"},
+        "continue_button": {"path": "(//button[@type='button'])", "type": "xpath"},
+        "password": {"path": "//input[@type='password']", "type": "xpath"},
+        "login_button": {"path": "(//button[@type='button'])", "type": "xpath"}
+
+    },
+    "navigation": {
+        "parent_button": {"path": "parent-button","type": "ID"},
+        "next_button": {"path": "next-button","type": "ID"},
+        "submit_button": {"path": "//button[@id='submit-button' and @class='style-scope ytk-kids-onboarding-age-gate-renderer']","type": "xpath"},
+        "account_info_container": {"path":"account-info-container", "type": "ID" },
+        "sign_in_info_next_button":{"path":"//button[@id='sign-in-info-next-button' and @class='style-scope ytk-kids-sign-in-info-renderer']", "type":"xpath" }
+    },
+    "video": {
+        "video_stream": {"path":"video-stream", "type": "CLASS_NAME"},
+        "first_video": {"path": "ytk-compact-video-renderer-TvDP8LVbBsk","type": "ID"}
+    }
+}
